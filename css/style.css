@@ -217,9 +217,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .hero-media{
   border-radius: var(--radius-lg);
   overflow:hidden;
-  box-shadow: 0 30px 60px -20px rgba(0,57,219,.25);
 }
-.hero-media img{ width:100%; height:100%; object-fit:cover; aspect-ratio: 8/5; }
+.hero-media img{ width:100%; height:100%; object-fit:cover; }
 
 /* ==========================================================
    About
