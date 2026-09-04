@@ -133,7 +133,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   height: 88px;
   gap: 24px;
 }
-.logo img{ height: 34px; width:auto; }
+.logo img{ height: 26px; width:auto; }
 
 .main-nav ul{ display:flex; gap: 36px; }
 .nav-link{
