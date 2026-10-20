@@ -121,4 +121,26 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  /* Contact form status message (after FormSubmit redirects back with ?sent=1) */
+  var formStatus = document.getElementById('form-status');
+  if (formStatus) {
+    var params = new URLSearchParams(window.location.search);
+    if (params.has('sent')) {
+      formStatus.textContent = "Thanks — your message has been sent. We'll be in touch shortly.";
+      formStatus.classList.add('success');
+      formStatus.hidden = false;
+    } else if (params.has('error')) {
+      formStatus.textContent = "Something went wrong sending your message. Please check your details and try again, or email us directly.";
+      formStatus.classList.add('error');
+      formStatus.hidden = false;
+    }
+    if (params.has('sent') || params.has('error')) {
+      params.delete('sent');
+      params.delete('error');
+      var query = params.toString();
+      var newUrl = window.location.pathname + (query ? '?' + query : '') + window.location.hash;
+      window.history.replaceState({}, '', newUrl);
+    }
+  }
+
 });

@@ -479,6 +479,27 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .form-field input:focus, .form-field textarea:focus{ border-color: var(--blue); outline:none; }
 .contact-form .btn{ margin-top: 4px; }
 
+/* Honeypot field — kept in the DOM/tab order out of the way, hidden from
+   sighted users and screen readers, but still fillable by spam bots */
+.hp-field{
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* Contact form status message */
+.form-status{
+  padding: 14px 18px;
+  border-radius: 10px;
+  font-size: 14.5px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.form-status.success{ background: #E6F4EA; color: #1E7A34; }
+.form-status.error{ background: #FBEAEA; color: #B3261E; }
+
 /* ==========================================================
    Footer
    ========================================================== */
