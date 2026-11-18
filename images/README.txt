@@ -1,22 +1,17 @@
 MAVION SITE — IMAGE GUIDE
 =========================
 
-This folder currently contains on-brand placeholder graphics so the site
-previews correctly. Replace each file (keep the same filename, or update
-the src path in index.html) with real Mavion assets:
+Photos (free under the Unsplash License — commercial use, no attribution required):
+  about.jpg       https://unsplash.com/photos/_XeQ8XEWb4Q
+  service-1.jpg   https://unsplash.com/photos/a7A9O5htrKs   Professional Software
+  service-2.jpg   https://unsplash.com/photos/x2Z0uNj-Quo   Business Hardware
+  service-3.jpg   https://unsplash.com/photos/CGnoRQZGWmw   Peripherals & Accessories
+  service-4.jpg   https://unsplash.com/photos/CPs2X8JYmS8   Technology Support & Services
+  service-5.jpg   https://unsplash.com/photos/TD5d-_Mw3xY   BIM Services
+  service-6.jpg   https://unsplash.com/photos/h7v_38e3iGE   Website Design & Development
 
-  logo.png          — primary logo, dark text version (header). ~220x60
-  logo-white.png     — white logo for the dark footer. ~220x60
-  favicon.png        — browser tab icon. 64x64 (or provide a proper .ico)
-  hero.jpg           — top hero image. Recommended 1600x1000, landscape
-  about.jpg           — "Who We Are" section image. Recommended 900x1000, portrait
-  service-1.jpg       — Software Development panel image. 700x500
-  service-2.jpg       — Cloud Solutions panel image. 700x500
-  service-3.jpg       — Data & AI panel image. 700x500
-  service-4.jpg       — IT Consulting panel image. 700x500
-  contact-cta.jpg     — currently unused, kept as a spare in case you want
-                        an image in the contact section. 900x700
+To replace one, drop a new file in with the same name (landscape works best).
 
-All images are referenced with relative paths (e.g. "images/hero.jpg"),
-so you can drop new files straight into this folder without touching
-the HTML — just keep the filenames the same.
+logo.png / logo-white.png   header and footer logos
+favicon.png                 browser tab icon
+contact-cta.jpg             unused spare

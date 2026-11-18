@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-E1ZF911J7D"></script> <script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());   gtag('config', 'G-E1ZF911J7D'); </script>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E1ZF911J7D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-E1ZF911J7D');
+</script>
+<script>document.documentElement.classList.add('js');</script>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#FFFFFF">
 <title>Mavion — Technology Products &amp; Services for Every Business Need</title>
 <meta name="description" content="Mavion helps businesses stay equipped with the right software, hardware, and technology services to support their people, operations, and growth.">
 <link rel="icon" href="images/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="images/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:wght@400;500;600;700;800&family=Google+Sans:wght@400;500;700&display=swap" rel="stylesheet">
@@ -16,11 +27,11 @@
 <!-- ============ HEADER ============ -->
 <header class="site-header" id="top">
   <div class="container header-inner">
-    <a href="#top" class="logo">
-      <img src="images/logo.png" alt="Mavion logo">
+    <a href="#top" class="logo" aria-label="Mavion home">
+      <img src="images/logo.png" alt="Mavion logo" width="1200" height="197">
     </a>
 
-    <nav class="main-nav" id="main-nav">
+    <nav class="main-nav" id="main-nav" aria-label="Main">
       <ul>
         <li><a href="#top" class="nav-link active">Home</a></li>
         <li><a href="#about" class="nav-link">About</a></li>
@@ -28,210 +39,181 @@
         <li><a href="#industries" class="nav-link">Industries</a></li>
         <li><a href="#contact" class="nav-link">Contact</a></li>
       </ul>
+      <a href="#contact" class="btn btn-primary btn-block nav-cta">Contact Now</a>
     </nav>
 
     <div class="header-actions">
-      <a href="#contact" class="btn btn-primary">Contact Now</a>
-      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <a href="#contact" class="btn btn-primary btn-sm header-cta">Contact Now</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-nav">
         <span></span><span></span><span></span>
       </button>
     </div>
   </div>
 </header>
 
+<main>
 <!-- ============ HERO ============ -->
 <section class="hero">
+  <div class="hero-deco" aria-hidden="true"><span class="deco deco-1"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M9 13l-2 2 2 2M15 13l2 2-2 2"/></svg></span><span class="deco deco-2"><svg viewBox="0 0 24 24"><path d="M6 9V3h12v6"/><rect x="3" y="9" width="18" height="8" rx="2"/><path d="M7 14h10v7H7z"/></svg></span><span class="deco deco-3"><svg viewBox="0 0 24 24"><path d="M12 2 3 7v10l9 5 9-5V7l-9-5Z"/><path d="M3 7l9 5 9-5M12 12v10"/></svg></span><span class="deco deco-4"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></span><span class="deco deco-5"><svg viewBox="0 0 24 24"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/></svg></span><span class="deco deco-6"><svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="11" rx="1.5"/><path d="M2 19h20"/></svg></span></div>
   <div class="container hero-inner">
     <div class="hero-content" data-reveal>
-      <span class="eyebrow">Mavion</span>
+      <div class="hero-chips" aria-hidden="true"><span class="hero-chip"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M9 13l-2 2 2 2M15 13l2 2-2 2"/></svg></span><span class="hero-chip is-accent"><svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="11" rx="1.5"/><path d="M2 19h20"/></svg></span><span class="hero-chip"><svg viewBox="0 0 24 24"><path d="M6 9V3h12v6"/><rect x="3" y="9" width="18" height="8" rx="2"/><path d="M7 14h10v7H7z"/></svg></span><span class="hero-chip"><svg viewBox="0 0 24 24"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/></svg></span><span class="hero-chip is-accent"><svg viewBox="0 0 24 24"><path d="M12 2 3 7v10l9 5 9-5V7l-9-5Z"/><path d="M3 7l9 5 9-5M12 12v10"/></svg></span><span class="hero-chip"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></span></div>
       <h1>Technology Products &amp; Services for Every Business Need.</h1>
       <p class="hero-sub">Mavion helps businesses stay equipped with the right software, hardware, and technology services to support their people, operations, and growth.</p>
       <div class="hero-cta">
-        <a href="#services" class="btn btn-primary">View Products &amp; Services</a>
+        <a href="#services" class="btn btn-primary">View Products &amp; Services <span class="btn-arrow" aria-hidden="true">→</span></a>
         <a href="#contact" class="btn btn-outline">Contact Now</a>
       </div>
-    </div>
-    <div class="hero-media" data-reveal>
-      <img src="images/hero-image.jpg" alt="Mavion — technology products and services">
     </div>
   </div>
 </section>
 
 <!-- ============ ABOUT ============ -->
-<section class="about" id="about">
+<section class="about section" id="about">
   <div class="container about-inner">
     <div class="about-media" data-reveal>
-      <img src="images/about.jpg" alt="About Mavion IT Solutions">
+      <img src="images/about.jpg" alt="Two business partners shaking hands across a desk" width="1400" height="1050" loading="lazy">
     </div>
     <div class="about-content" data-reveal>
-      <span class="eyebrow">About Us</span>
       <h2>More Than 20 Years in the Industry.<br>Building on Experience, Looking Ahead</h2>
       <p>Mavion brings over 20 years of experience in software and hardware sales, with a deep understanding of technology products and the businesses that rely on them.</p>
       <p>Founded and led by a woman entrepreneur, Mavion brings together industry experience, strong client relationships, and a clear understanding of what matters beyond the transaction — quality, service, and trust.</p>
+    </div>
+  </div>
 
-      <div class="vm-grid" style="grid-template-columns: repeat(3, 1fr);">
-        <div class="vm-card">
-          <div class="vm-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24"><path d="M12 2 3 7v6c0 5 3.8 8.4 9 9 5.2-.6 9-4 9-9V7l-9-5Z"/></svg>
-          </div>
-          <h3>Built on Trust.</h3>
-          <p>Honesty, transparency, and integrity guide every relationship we build.</p>
+  <div class="container">
+    <div class="vm-grid" data-reveal>
+      <div class="vm-card">
+        <div class="vm-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 2 3 7v6c0 5 3.8 8.4 9 9 5.2-.6 9-4 9-9V7l-9-5Z"/></svg>
         </div>
-        <div class="vm-card">
-          <div class="vm-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24"><path d="M12 2 2 7l10 5 10-5-10-5Zm0 20-6-3v-4l6 3 6-3v4l-6 3Z"/></svg>
-          </div>
-          <h3>Backed by Expertise.</h3>
-          <p>Experience that translates into better decisions.</p>
+        <h3>Built on Trust.</h3>
+        <p>Honesty, transparency, and integrity guide every relationship we build.</p>
+      </div>
+      <div class="vm-card">
+        <div class="vm-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 2 2 7l10 5 10-5-10-5Zm0 20-6-3v-4l6 3 6-3v4l-6 3Z"/></svg>
         </div>
-        <div class="vm-card">
-          <div class="vm-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24"><path d="M12 5c-7 0-11 7-11 7s4 7 11 7 11-7 11-7-4-7-11-7Zm0 11.5A4.5 4.5 0 1 1 12 7.5a4.5 4.5 0 0 1 0 9Z"/><circle cx="12" cy="12" r="2"/></svg>
-          </div>
-          <h3>Driven by Vision.</h3>
-          <p>A vision to become a long-term technology partner for businesses.</p>
+        <h3>Backed by Expertise.</h3>
+        <p>Experience that translates into better decisions.</p>
+      </div>
+      <div class="vm-card">
+        <div class="vm-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 5c-7 0-11 7-11 7s4 7 11 7 11-7 11-7-4-7-11-7Zm0 11.5A4.5 4.5 0 1 1 12 7.5a4.5 4.5 0 0 1 0 9Z"/><circle cx="12" cy="12" r="2"/></svg>
         </div>
+        <h3>Driven by Vision.</h3>
+        <p>A vision to become a long-term technology partner for businesses.</p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- ============ SERVICES ============ -->
-<section class="services" id="services">
+<section class="services section" id="services">
   <div class="container">
     <div class="section-head" data-reveal>
-      <span class="eyebrow">Products and Services</span>
       <h2>Technology, From Products to Solutions.</h2>
       <p>From essential technology products to specialized services, Mavion brings together the tools, expertise, and support businesses need to work smarter, stay productive, and move forward.</p>
     </div>
 
-    <div class="services-layout" data-reveal>
-      <div class="service-tabs">
-        <button class="service-tab-btn active" data-service="1">Professional Software</button>
-        <button class="service-tab-btn" data-service="2">Business Hardware</button>
-        <button class="service-tab-btn" data-service="3">Peripherals &amp; Accessories</button>
-        <button class="service-tab-btn" data-service="4">Technology Support &amp; Services</button>
-        <button class="service-tab-btn" data-service="5">BIM Services</button>
-        <button class="service-tab-btn" data-service="6">Website Design &amp; Development</button>
-      </div>
-
-      <div class="service-panels">
-        <article class="service-panel active" data-service-panel="1">
-          <div class="service-panel-media"><img src="images/service-1.png" alt="Professional Software"></div>
-          <div class="service-panel-body">
-            <h3>Professional Software</h3>
-            <p class="service-tagline">The right software to support how your business works.</p>
-            <p>Licensed software across design, engineering, creative, productivity, and business applications, along with security solutions to help businesses work securely and efficiently.</p>
-            <a href="#contact" class="btn btn-dark">Let's Talk</a>
-          </div>
-        </article>
-
-        <article class="service-panel" data-service-panel="2">
-          <div class="service-panel-media"><img src="images/service-2.png" alt="Business Hardware"></div>
-          <div class="service-panel-body">
-            <h3>Business Hardware</h3>
-            <p class="service-tagline">Technology built around your business requirements.</p>
-            <p>From laptops and desktops to workstations, servers, networking, storage, and backup, we provide reliable hardware for everyday operations and specialized business needs.</p>
-            <a href="#contact" class="btn btn-dark">Let's Talk</a>
-          </div>
-        </article>
-
-        <article class="service-panel" data-service-panel="3">
-          <div class="service-panel-media"><img src="images/service-3.png" alt="Peripherals & Accessories"></div>
-          <div class="service-panel-body">
-            <h3>Peripherals &amp; Accessories</h3>
-            <p class="service-tagline">The essentials that complete your technology setup.</p>
-            <p>Printers, scanners, UPS systems, cables, connectors, and other essential accessories to keep your workplace equipped and connected.</p>
-            <a href="#contact" class="btn btn-dark">Let's Talk</a>
-          </div>
-        </article>
-
-        <article class="service-panel" data-service-panel="4">
-          <div class="service-panel-media"><img src="images/service-4.png" alt="Technology Support & Services"></div>
-          <div class="service-panel-body">
-            <h3>Technology Support &amp; Services</h3>
-            <p class="service-tagline">Expert support to help you get more from your technology.</p>
-            <p>From software support and corporate training to technology consultancy, we help businesses implement, manage, and make effective use of the technology they rely on.</p>
-            <a href="#contact" class="btn btn-dark">Let's Talk</a>
-          </div>
-        </article>
-
-        <article class="service-panel" data-service-panel="5">
-          <div class="service-panel-media"><img src="images/service-5.png" alt="BIM Services"></div>
-          <div class="service-panel-body">
-            <h3>BIM Services</h3>
-            <p class="service-tagline">Technology and expertise for better project delivery.</p>
-            <p>We provide BIM implementation and consulting to support better coordination, collaboration, and efficiency across projects.</p>
-            <a href="#contact" class="btn btn-dark">Let's Talk</a>
-          </div>
-        </article>
-
-        <article class="service-panel" data-service-panel="6">
-          <div class="service-panel-media"><img src="images/service-6.png" alt="Website Design & Development"></div>
-          <div class="service-panel-body">
-            <h3>Website Design &amp; Development</h3>
-            <p class="service-tagline">Building a stronger digital presence for your business.</p>
-            <p>We design and develop professional websites that bring your brand, business, and services together in a clear and effective digital experience.</p>
-            <a href="#contact" class="btn btn-dark">Let's Talk</a>
-          </div>
-        </article>
-      </div>
+    <div class="service-grid" data-reveal>
+      <article class="service-card" id="service-1">
+        <div class="service-card-media"><img src="images/service-1.jpg" alt="Professional Software" width="1000" height="1000" loading="lazy"></div>
+        <div class="service-card-body">
+          <h3>Professional Software</h3>
+          <p class="service-tagline">The right software to support how your business works.</p>
+          <p>Licensed software across design, engineering, creative, productivity, and business applications, along with security solutions to help businesses work securely and efficiently.</p>
+          <a href="#contact" class="service-link">Let's Talk <span class="btn-arrow" aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="service-card" id="service-2">
+        <div class="service-card-media"><img src="images/service-2.jpg" alt="Business Hardware" width="1000" height="1000" loading="lazy"></div>
+        <div class="service-card-body">
+          <h3>Business Hardware</h3>
+          <p class="service-tagline">Technology built around your business requirements.</p>
+          <p>From laptops and desktops to workstations, servers, networking, storage, and backup, we provide reliable hardware for everyday operations and specialized business needs.</p>
+          <a href="#contact" class="service-link">Let's Talk <span class="btn-arrow" aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="service-card" id="service-3">
+        <div class="service-card-media"><img src="images/service-3.jpg" alt="Peripherals &amp; Accessories" width="1000" height="1000" loading="lazy"></div>
+        <div class="service-card-body">
+          <h3>Peripherals &amp; Accessories</h3>
+          <p class="service-tagline">The essentials that complete your technology setup.</p>
+          <p>Printers, scanners, UPS systems, cables, connectors, and other essential accessories to keep your workplace equipped and connected.</p>
+          <a href="#contact" class="service-link">Let's Talk <span class="btn-arrow" aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="service-card" id="service-4">
+        <div class="service-card-media"><img src="images/service-4.jpg" alt="Technology Support &amp; Services" width="1000" height="1000" loading="lazy"></div>
+        <div class="service-card-body">
+          <h3>Technology Support &amp; Services</h3>
+          <p class="service-tagline">Expert support to help you get more from your technology.</p>
+          <p>From software support and corporate training to technology consultancy, we help businesses implement, manage, and make effective use of the technology they rely on.</p>
+          <a href="#contact" class="service-link">Let's Talk <span class="btn-arrow" aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="service-card" id="service-5">
+        <div class="service-card-media"><img src="images/service-5.jpg" alt="BIM Services" width="1000" height="1000" loading="lazy"></div>
+        <div class="service-card-body">
+          <h3>BIM Services</h3>
+          <p class="service-tagline">Technology and expertise for better project delivery.</p>
+          <p>We provide BIM implementation and consulting to support better coordination, collaboration, and efficiency across projects.</p>
+          <a href="#contact" class="service-link">Let's Talk <span class="btn-arrow" aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="service-card" id="service-6">
+        <div class="service-card-media"><img src="images/service-6.jpg" alt="Website Design &amp; Development" width="1000" height="1000" loading="lazy"></div>
+        <div class="service-card-body">
+          <h3>Website Design &amp; Development</h3>
+          <p class="service-tagline">Building a stronger digital presence for your business.</p>
+          <p>We design and develop professional websites that bring your brand, business, and services together in a clear and effective digital experience.</p>
+          <a href="#contact" class="service-link">Let's Talk <span class="btn-arrow" aria-hidden="true">→</span></a>
+        </div>
+      </article>
     </div>
   </div>
 </section>
 
 <!-- ============ INDUSTRIES ============ -->
-<section class="process" id="industries">
+<section class="industries section" id="industries">
   <div class="container">
     <div class="section-head light" data-reveal>
       <h2>Technology Solutions Across Industries.</h2>
     </div>
 
-    <div class="process-grid" data-reveal>
-      <div class="process-card">
-        <h4>Construction &amp; Infrastructure</h4>
-      </div>
-      <div class="process-card">
-        <h4>Architecture &amp; Interior Design</h4>
-      </div>
-      <div class="process-card">
-        <h4>Manufacturing</h4>
-      </div>
-      <div class="process-card">
-        <h4>Educational Institutions</h4>
-      </div>
-      <div class="process-card">
-        <h4>Government Organizations</h4>
-      </div>
-      <div class="process-card">
-        <h4>Power &amp; Utilities</h4>
-      </div>
-      <div class="process-card">
-        <h4>Healthcare</h4>
-      </div>
-      <div class="process-card">
-        <h4>Corporate Enterprises</h4>
-      </div>
-    </div>
+    <ul class="industry-grid" data-reveal>
+      <li class="industry-card"><span class="industry-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 21h18M6 21V5l12 3M6 5 4 7M18 8v4M16.5 12h3v2.5h-3zM6 9l4 2M6 13l4 2M10 11v10"/></svg></span><h4>Construction &amp; Infrastructure</h4></li>
+      <li class="industry-card"><span class="industry-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 21 12 3l9 18H3Z"/><path d="M7.5 21 12 12l4.5 9"/></svg></span><h4>Architecture &amp; Interior Design</h4></li>
+      <li class="industry-card"><span class="industry-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 21V10l5 3V10l5 3V10l5 3V4h3v17H3Z"/><path d="M7 17h2M12 17h2"/></svg></span><h4>Manufacturing</h4></li>
+      <li class="industry-card"><span class="industry-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M2 9 12 4l10 5-10 5L2 9Z"/><path d="M6 11v5c0 1.5 2.7 3 6 3s6-1.5 6-3v-5M22 9v6"/></svg></span><h4>Educational Institutions</h4></li>
+      <li class="industry-card"><span class="industry-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 21h18M4 10h16M12 3 3 8v2h18V8l-9-5ZM6 10v8M10 10v8M14 10v8M18 10v8M4 18h16"/></svg></span><h4>Government Organizations</h4></li>
+      <li class="industry-card"><span class="industry-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z"/></svg></span><h4>Power &amp; Utilities</h4></li>
+      <li class="industry-card"><span class="industry-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 21s-8-4.8-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 6.2-8 11-8 11Z"/><path d="M7.5 12H10l1-2 2 4 1-2h2.5"/></svg></span><h4>Healthcare</h4></li>
+      <li class="industry-card"><span class="industry-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18M11 13v2h2v-2"/></svg></span><h4>Corporate Enterprises</h4></li>
+    </ul>
   </div>
 </section>
 
 <!-- ============ CONTACT ============ -->
-<section class="contact" id="contact">
+<section class="contact section" id="contact">
   <div class="container contact-inner">
     <div class="contact-content" data-reveal>
-      <span class="eyebrow">Contact Us</span>
       <h2>Get in touch with us</h2>
       <p>Have a requirement in mind? Let's find the right solution together.</p>
 
       <ul class="contact-details">
         <li>
-          <strong>Email</strong>
-          <span><a href="mailto:sales@mavion.in">sales@mavion.in</a></span>
+          <a href="mailto:sales@mavion.in">
+            <span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>
+            <span><strong>Email</strong>sales@mavion.in</span>
+          </a>
         </li>
         <li>
-          <strong>Contact</strong>
-          <span><a href="tel:+919847934866">+91 98479 34866</a></span>
+          <a href="tel:+919847934866">
+            <span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></span>
+            <span><strong>Contact</strong>+91 98479 34866</span>
+          </a>
         </li>
       </ul>
     </div>
@@ -246,17 +228,17 @@
       <div class="form-row">
         <div class="form-field">
           <label for="name">Full Name</label>
-          <input type="text" id="name" name="name" placeholder="Your name" required>
+          <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name" required>
         </div>
         <div class="form-field">
           <label for="email">Email Address</label>
-          <input type="email" id="email" name="email" placeholder="you@company.com" required>
+          <input type="email" id="email" name="email" placeholder="you@company.com" autocomplete="email" required>
         </div>
       </div>
       <div class="form-row">
         <div class="form-field">
           <label for="phone">Phone Number</label>
-          <input type="tel" id="phone" name="phone" placeholder="+1 (___) ___ ____">
+          <input type="tel" id="phone" name="phone" placeholder="+91 _____ _____" autocomplete="tel">
         </div>
         <div class="form-field">
           <label for="subject">Subject</label>
@@ -271,19 +253,14 @@
     </form>
   </div>
 </section>
+</main>
 
 <!-- ============ FOOTER ============ -->
 <footer class="site-footer">
   <div class="container footer-top">
     <div class="footer-brand">
-      <img src="images/logo-white.png" alt="Mavion logo">
+      <img src="images/logo-white.png" alt="Mavion logo" width="1200" height="197" loading="lazy">
       <p>Mavion helps businesses stay equipped with the right software, hardware, and technology services to support their people, operations, and growth.</p>
-       <!--<div class="social-links">
-        <a href="#" aria-label="LinkedIn">in</a>
-        <a href="#" aria-label="Twitter">tw</a>
-        <a href="#" aria-label="Instagram">ig</a>
-        <a href="#" aria-label="Facebook">fb</a>
-      </div>-->
     </div>
 
     <div class="footer-col">
@@ -299,18 +276,18 @@
     <div class="footer-col">
       <h5>Products &amp; Services</h5>
       <ul>
-        <li><a href="#services">Professional Software</a></li>
-        <li><a href="#services">Business Hardware</a></li>
-        <li><a href="#services">Peripherals &amp; Accessories</a></li>
-        <li><a href="#services">Technology Support &amp; Services</a></li>
-        <li><a href="#services">BIM Services</a></li>
-        <li><a href="#services">Website Design &amp; Development</a></li>
+        <li><a href="#service-1">Professional Software</a></li>
+        <li><a href="#service-2">Business Hardware</a></li>
+        <li><a href="#service-3">Peripherals &amp; Accessories</a></li>
+        <li><a href="#service-4">Technology Support &amp; Services</a></li>
+        <li><a href="#service-5">BIM Services</a></li>
+        <li><a href="#service-6">Website Design &amp; Development</a></li>
       </ul>
     </div>
 
     <div class="footer-col">
       <h5>Contact Info</h5>
-      <ul class="footer-contact">
+      <ul>
         <li><a href="mailto:sales@mavion.in">sales@mavion.in</a></li>
         <li><a href="tel:+919847934866">+91 98479 34866</a></li>
       </ul>
@@ -327,7 +304,9 @@
   </div>
 </footer>
 
-<button class="scroll-top" id="scroll-top" aria-label="Scroll to top">↑</button>
+<button class="scroll-top" id="scroll-top" aria-label="Scroll to top">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
 
 <script src="js/script.js"></script>
 </body>
